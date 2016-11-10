@@ -13,6 +13,10 @@
   color: #0077B5;
 }
 
+.margin-footer {
+  margin-bottom: 150px;
+}
+
 * {
   font-family: 'Lato', sans-serif;
 }
@@ -22,7 +26,7 @@
   -moz-box-sizing: border-box;
   -ms-box-sizing: border-box;
   box-sizing: : border-box;
-  /*border: 1px solid red;*/
+  border: 1px solid red;
 }
 .nav{
   width: 100%;
@@ -212,9 +216,6 @@ img {
   .project-img {
     margin-right: 100px;
     margin-left: 100px;
-  }
-  .project-img:last-of-type {
-    margin-right: 0;
   }
 
 }
