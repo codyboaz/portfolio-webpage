@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html>
+
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -10,78 +11,90 @@
     <meta charset="utf-8">
     <title>Cody Boaz</title>
 </head>
+
 <body>
     <div class="container">
-        <div class="row margin-top">
-            <a id="menu" class="header__menu">
+        <div class="row">
+            <a id="menu" class="header-menu">
                 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
                     <path d="M2 6h20v3H2zm0 5h20v3H2zm0 5h20v3H2z" />
                 </svg>
             </a>
-            <nav id="drawer" class="nav">
-                <ul class="nav__list">
-                    <li class="nav__item"><a href="#">Home</a></li>
-                    <li class="nav__item"><a href="#projects">Projects</a></li>
-                    <li class="nav__item"><a href="resume/CodyBoazResume.pdf">Resume</a></li>
-                    <li class="nav__item"><a href="#contact">Contact Info</a></li>
+            <nav id="drawer" class="nav close">
+                <ul class="nav-list">
+                    <li class="nav-item"><a href="#">Home</a></li>
+                    <li class="nav-item"><a href="#projects">Projects</a></li>
+                    <li class="nav-item"><a href="resume/CodyBoazResume.pdf">Resume</a></li>
+                    <li class="nav-item"><a href="#contact">Contact Info</a></li>
                 </ul>
             </nav>
         </div>
-        <hr class="hide-small" />
-        <div class="row margin-header">
+        <div class="row main-header">
             <div class="col-6"><img src="images/profile.png" class="portfolio-img" alt="Picture of Cody Boaz"></div>
             <div class="col-6">
-                <header class="header-text">
-                    <h1 class="alignright">CODY BOAZ</h1>
-                    <h3 class="alignright">WEB DEVELOPER</h3>
-                    <h3 class="alignright">SOFTWARE DEVELOPER</h3>
-                </header>
+                <div class="header-text">
+                    <h1 class="align-right">Cody Boaz</h1>
+                    <p class="align-right">Front End Developer</p>
+                    <p class="align-right">Software Engineer</p>
+                </div>
             </div>
         </div>
-        <hr />
-        <div class="row margin-top">
+        <div class="row main-banner">
             <div class="col-12">
                 <img src="images/santacruz.png" alt="Image of Its beach in Santa Cruz California">
             </div>
         </div>
-        <p class="margin-sides">Hello, my name is Cody Boaz. I currently work as a Web Developer in Santa Cruz, California. I have a passion for building web applications and aspire to be a Full Stack Developer. I am a graduate of California State Monterey Bay where I studied Computer Science with a focus in Software Engineering. Welcome to my portfolio!</p>
-        <hr />
-        <div class="row">
+        <div class="row main-text">
+            <p>
+                Hello, my name is Cody Boaz. I currently work as a Front End Developer in Santa Cruz, California. I have
+                a passion for building web applications and learning new technologies. I am a graduate of California
+                State Monterey Bay where I studied Computer Science with a focus in Software Engineering. I hope you
+                enjoy my portfolio!
+            </p>
+        </div>
+        <div class="row projects">
             <div class="col-12" id="projects">
                 <h2>Projects</h2>
             </div>
+            <div class="project-img">
+                <a href="https://howling-nightmare-48243.herokuapp.com/">
+                    <img src="images/yelpCamp.png" alt="Image of Yelp Camp" class="proj-img">
+                    <p>Yelp Camp</p>
+                </a>
+            </div>
+            <div class="project-img">
+                <a href="projects/budget-app/index.html">
+                    <img src="images/budget.png" alt="Image of Budget App" class="proj-img">
+                    <p>Budget App</p>
+                </a>
+            </div>
+            <div class="project-img">
+                <a href="projects/dice-game/index.html">
+                    <img src="images/dice.png" alt="Image of Dice Game" class="proj-img">
+                    <p>Dice Game</p>
+                </a>
+            </div>
+            <div class="project-img">
+                <a href="projects/rgb-game/colorGame.html">
+                    <img src="images/colorGame.png" alt="Image of Color Game" class="proj-img">
+                    <p>Color Game</p>
+                </a>
+            </div>
+            <div class="project-img">
+                <a href="projects/favorite-movies/fresh_tomatoes.html">
+                    <img src="images/favoriteMovies.png" alt="Image of favorite movies website" class="proj-img">
+                    <p>Favorite Movies Website</p>
+                </a>
+            </div>
+            <div class="project-img">
+                <a href="https://djdjp.shinyapps.io/test1/">
+                    <img src="images/nbaWordcloud.png" alt="Image of NBA word cloud website" class="proj-img">
+                    <p>NBA Word Cloud</p>
+                </a>
+            </div>
         </div>
-        <div class="row margin-btm">
-            <div class="project-img">
-                <a href="https://howling-nightmare-48243.herokuapp.com/"><img src="images/yelpCamp.png" alt "Image of Yelp Camp" class="proj-img"></a>
-                <h3 class="center-text">Yelp Camp</h3>
-            </div>
-            <div class="project-img">
-                <a href="projects/budget-app/index.html"><img src="images/budget.png" alt "Image of Budget App" class="proj-img"></a>
-                <h3 class="center-text">Budget App</h3>
-            </div>
-            <div class="project-img">
-                <a href="projects/dice-game/index.html"><img src="images/dice.png" alt "Image of Dice Game" class="proj-img"></a>
-                <h3 class="center-text">Dice Game</h3>
-            </div>
-        </div>
-        <div class="row margin-btm">
-            <div class="project-img">
-                <a href="projects/rgb-game/colorGame.html"><img src="images/colorGame.png" alt "Image of Color Game" class="proj-img"></a>
-                <h3 class="center-text">Color Game</h3>
-            </div>
-            <div class="project-img">
-                <a href="projects/favorite-movies/fresh_tomatoes.html"><img src="images/favoriteMovies.png" alt "Image of favorite movies website" class="proj-img"></a>
-                <h3 class="center-text">Favorite Movies Website</h3>
-            </div>
-            <div class="project-img">
-                <a href="https://djdjp.shinyapps.io/test1/"><img src="images/nbaWordcloud.png" alt "Image of NBA wordcloud website" class="proj-img"></a>
-                <h3 class="center-text">NBA Wordcloud</h3>
-            </div>
-        </div>
-        <hr />
         <footer class="center-text margin-footer" id="contact">
-            <h2>FIND ME ON</h2>
+            <h2>Find Me On</h2>
             <a href="https://www.linkedin.com/in/codyboaz">
                 <div class="fontawesome-linkedin-sign blue-background"></div>
             </a>
@@ -94,4 +107,5 @@
     </div>
     <script src="js/portfolio.js"></script>
 </body>
+
 </html>
