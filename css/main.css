@@ -3,8 +3,8 @@
 [class*="fontawesome-"]:before {
   display: inline-block;
   font-family: 'fontawesome', sans-serif;
-  text-shadow: 3px 3px 3px #aaa;
-  font-size: 8vw;
+  text-shadow: 1px 1px 1px #aaa;
+  font-size: 50px;
 }
 
 * {
@@ -121,6 +121,7 @@ img {
 }
 
 .projects {
+  text-align: center;
   border-bottom: #9c9c9c solid 1px;
 }
 
@@ -224,6 +225,32 @@ img {
   margin-bottom: 100px;
 }
 
+footer {
+  text-align: center;
+}
+
+footer ul {
+  list-style: none;
+  padding: 0;
+}
+
+footer ul li {
+  display: inline-block;
+  text-align: center;
+}
+
+footer ul li:last-child {
+  margin-left: 25px;
+}
+
+footer ul li a {
+  text-decoration: none;
+}
+
+footer ul li a p {
+  color: #000;
+  font-weight: 600;
+}
 
 
 @media screen and (max-width: 500px) {
@@ -280,7 +307,7 @@ img {
   }
   .projects h2 {
     text-align: center;
-}
+  }
 }
 
 @media screen and (min-width: 500px) {
